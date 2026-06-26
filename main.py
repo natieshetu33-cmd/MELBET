@@ -18,7 +18,8 @@ API_TOKEN = '8985196897:AAHId61d1nfnzaYF761k1SNpJon1ybhkdCY'
 bot = telebot.TeleBot(API_TOKEN)
 
 # ያመጣኸው የዳታቤዝ ሊንክ
-DB_URL = "postgres://melbet_dp_user:4Y8Oc5WWy9FOB6bh8XrMFVYOFxi6Dmj5@dpg-d8v52jmq1p3s73bfg1cg-a.oregon-postgres.render.com/melbet_dp"
+DB_URL = "DB_URL = "postgres://melbet_dp_user:4Y8Oc5WWy9FOB6bh8XrMFVYOFxi6Dmj5@dpg-d8v52jmq1p3s73bfg1cg-a.oregon-postgres.render.com/melbet_dp"
+"
 
 # ዳታቤዝ ውስጥ ሰንጠረዥ (Table) መፍጠሪያ
 def init_db():
@@ -78,7 +79,7 @@ def send_welcome(message):
     register_user(user_id, username)
     
     welcome_text = (
-        f"እንኳን ወደ Wana Bingo & Melbet በደህና መጡ! 🎰\n\n"
+        f"እንኳን ወደ  Melbet በደህና መጡ! 🎰\n\n"
         f"👋 ሰላም {username}፣ አካውንትዎ በነፃ ተከፍቷል።\n"
         f"እዚህ በቀላሉ የቢንጎ፣ የሩሌት እና የቁማር ጨዋታዎችን መጫወት ይችላሉ።\n\n"
         f"ለመጀመር ከታች ያለውን 'Play' ወይም የሚፈልጉትን አማራጭ ይጫኑ፦"
